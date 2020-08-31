@@ -1,0 +1,143 @@
+.transparant-letter-3 {
+  padding-top: 5em;
+  text-align: center;
+}
+
+.blog-section {
+  position: relative;
+}
+
+.blog-header {
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  top: 136px;
+  left: -1%;
+}
+
+.blog-header-text {
+  font-size: 2.1rem;
+}
+
+.blog-header-paragraph {
+  width: 100vw;
+  text-align: center;
+  margin-top: -8px;
+}
+
+.blog-1 {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.blog-1-publish-info,
+.blog-2-publish-info,
+.blog-3-publish-info {
+  margin-top: 10px;
+}
+
+.blog-2 {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 2em;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+.blog-3 {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 2em 0 5em 0;
+  text-align: center;
+}
+
+.subscribe-section {
+  width: 96vw;
+  margin: 0 auto;
+  background-color: rgb(235, 231, 231);
+}
+
+.subscribe-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.subscribe-paragraph {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 7em;
+  position: relative;
+}
+
+.search-bar input {
+  width: 50vw;
+  height: 8vh;
+  padding: 8px;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.subscribe-btn {
+  width: 10vw;
+  padding: 7px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 31.5%;
+  right: 24.6%;
+}
+
+.footer {
+  width: 96vw;
+  margin: 0 auto;
+  background-color: rgba(46, 46, 46, 0.911);
+  color: white;
+}
+
+.footer-header {
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 3em 0 1.5em 0;
+}
+
+.footer-nav-links {
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4em;
+}
+
+.footer-nav-link-item {
+  list-style: none;
+  font-size: 14px;
+}
+
+.copyright {
+  width: 96vw;
+  margin-right: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: grey;
+  font-size: 14px;
+}
+
+.white-text {
+  color: white;
+  font-size: 16px;
+}

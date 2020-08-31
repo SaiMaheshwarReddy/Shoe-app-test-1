@@ -1,0 +1,140 @@
+@media (max-width: 800px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  .nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    z-index: 2;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.2%;
+    cursor: pointer;
+    padding: 4px;
+    position: relative;
+  }
+
+  .line {
+    width: 26px;
+    height: 4px;
+    border-radius: 25px;
+    background-color: black;
+    transition: all 1s;
+  }
+
+  .line:not(:first-child) {
+    margin-top: 3px;
+  }
+  .lines .line1 {
+    transform: rotate(45deg), translate(-5px, 6px);
+  }
+  .lines .line3 {
+    transform: rotate(-45deg), translate(-5px, 6px);
+  }
+  .lines .line2 {
+    opacity: 0;
+  }
+
+  @keyframes nav {
+    0% {
+    }
+    100% {
+    }
+  }
+
+  .mobile-nav-bar {
+    /* width: 50%;
+    background-color: #f3f3f3; */
+    display: none;
+    /* position: absolute;
+    top: 6%;
+    left: 2.5%;
+    z-index: 5;
+    transform: translateX(-110%);
+    transition: transform 0.5s ease-in-out 0.5s;  */
+  }
+  .mobile-nav-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobile-nav-item {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(59, 59, 59);
+  }
+
+  .mobile-nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-nav-item a:hover {
+    color: white;
+  }
+
+  .shop-nav {
+    width: 20vw;
+    margin-right: 40px;
+    /* background-color: grey; */
+  }
+
+  .shop-nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .shop-nav-list-item a i {
+    font-size: 22px;
+  }
+
+  /* hamburger animation */
+
+  .hamburger-animate {
+    transform: translateX(0%);
+  }
+
+  .hero-text {
+    width: 400px;
+    margin-left: 1em;
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+
+  .hero-paragraph {
+    width: 38em;
+    margin-left: 2.15em;
+    padding: 10px;
+  }
+
+  .button {
+    margin-left: 6.5rem;
+    margin-top: 40px;
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 1px 1px 100px 2px rgb(112, 112, 112);
+  }
+}

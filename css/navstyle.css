@@ -1,0 +1,65 @@
+.nav {
+  width: 100vw;
+  height: 14vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 3%;
+}
+
+.logo-text {
+  font-weight: 650;
+  font-size: 26px;
+}
+
+.nav-items {
+  /* background-color: rebeccapurple; */
+  width: 46%;
+  margin-left: 16em;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list-item {
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+.hover {
+  padding: 8px 10px;
+  font-weight: 900;
+}
+
+.hover:hover {
+  background-color: black;
+  color: white;
+}
+
+#drop-down {
+  margin-left: 12px;
+}
+
+.shop-nav {
+  /* background-color: blue; */
+  width: 8vw;
+  margin-right: 40px;
+}
+
+.shop-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-nav-list-item a i {
+  font-size: 18px;
+}

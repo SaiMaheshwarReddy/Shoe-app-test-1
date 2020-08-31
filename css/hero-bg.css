@@ -1,0 +1,55 @@
+.hero-header {
+  width: 95vw;
+  height: 100vh;
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(79, 79, 80);
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hero-text {
+  width: 14em;
+  margin-left: 3em;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.hero-paragraph {
+  width: 38em;
+  margin-left: 6em;
+  padding: 10px;
+}
+
+.button {
+  margin-left: 6.5rem;
+  margin-top: 40px;
+  background-color: black;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 1px 1px 100px 2px rgb(112, 112, 112);
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+/* main {
+  position: relative;
+} */
+
+.divide-line {
+  width: 1px;
+  height: 12vh;
+  background-color: black;
+  /* position: absolute; */
+  margin-left: 50%;
+}

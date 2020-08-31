@@ -1,0 +1,75 @@
+.divide-line-2 {
+  margin-top: 1.5em;
+  margin-left: -8px;
+}
+
+.products-section {
+  background-color: #f3f3f3;
+  width: 95vw;
+  height: 150vh;
+  margin: 0 auto;
+  position: relative;
+}
+.transparant-letter-2 {
+  padding-top: 8em;
+  text-align: center;
+}
+
+.transparant-letter-2 h1 {
+  font-size: 8em;
+  color: #d3d1d1;
+}
+
+.best-products-header {
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  top: 186px;
+  margin-left: 18px;
+  font-size: 2rem;
+}
+.list {
+  width: 35vw;
+  margin: 0 auto;
+}
+.list-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-item {
+  font-weight: bold;
+}
+
+.list-item:nth-child(1) {
+  list-style: none;
+}
+
+.list-item:not(:first-child) {
+  color: #333333;
+}
+
+.left-right-btn-container {
+  width: 8vw;
+  height: 6vh;
+  /* background-color: blueviolet; */
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.angle-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+}
+
+.angle-btn i {
+  font-size: 20px;
+  padding: 4px;
+  color: grey;
+}
